@@ -23,7 +23,7 @@ gulp.task('styles', function() {
         .pipe(autoprefixer())
         .pipe(cleanCSS({compatibility: 'ie8'}))
         .pipe(gulp.dest("src/css"))
-        .pipe(browsersync.reload({ stream: true }));
+        .pipe(browserSync.stream());
 });
 
 gulp.task('watch', function() {
