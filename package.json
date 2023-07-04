@@ -1,0 +1,24 @@
+{
+  "name": "runsmartru",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nijatsafarov/runsmartru.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nijatsafarov/runsmartru/issues"
+  },
+  "homepage": "https://github.com/nijatsafarov/runsmartru#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-cli": "^2.3.0"
+  }
+
+}
